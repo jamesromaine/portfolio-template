@@ -1,12 +1,13 @@
-
-// JotForm
-// Replace the formId witht he one from your form
+// JotForm - https://www.jotform.com/
+// Replace the formId with the one from your form
 // Update the windowTitle text
+// JotForm Form Builder > Publish Tab > Embed > Lightbox
+//spearate the scripts with the HTML code
 
     var JFL_232505515355149 = new JotformFeedback({
-      formId: '232505515355149',
+      formId: '',
       base: 'https://form.jotform.com/',
-      windowTitle: 'Contact James Romaine',
+      windowTitle: 'Contact Me',
       backgroundColor: 'rgba(229, 231, 242,0.39)',
       fontColor: '#FFFFFF',
       type: '1',

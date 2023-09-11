@@ -1,4 +1,6 @@
 // Animation script
+// Refer to https://animate.style/ for various CSS animations
+
 function scrollTrigger(selector, options = {}) {
   let els = document.querySelectorAll(selector)
   els = Array.from(els)
@@ -27,6 +29,8 @@ function addObserver(el, animation, prefix = 'animate__') {
   observer.observe(el)
 }
 // Trigger Animations:
+// First param is style to assign the animation
+// Second param is the CSS name from https://animate.style/
 scrollTrigger('.boxL', 'slideInLeft')
 scrollTrigger('.boxR', 'slideInRight')
 scrollTrigger('.boxZoom', 'zoomIn')
